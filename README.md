@@ -50,3 +50,10 @@ services:
 Crie:
 - .devcontainer/devcontainer.json
 
+----------------------------------------------------------
+
+# Reiniciar o Container:
+
+- docker compose down
+- docker compose up -d
+- docker compose restart
